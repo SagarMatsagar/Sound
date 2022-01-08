@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Sound</title>
+    <link rel="stylesheet" href="sound.css">
+</head>
+<body>
+    <audio src="PUSHPA.mp3" id="pushpa"></audio>
+    <audio src="MONEY.mp3" id="money"></audio>
+    <audio src="TOMJERRY.mp3" id="tomjerry"></audio>
+    <audio src="SCAM1992.mp3" id="scam1992"></audio>
+    <audio src="KGF.mp3" id="kgf"></audio>
+
+    <div class="container">
+        <div class="panel" id="panel-1" onclick="selectPanel(pushpa)">
+            <h3>Pushpa</h3>
+        </div>
+        <div class="panel" id="panel-2" onclick="selectPanel(money)">
+            <h3>Money Heaist</h3>
+        </div>
+        <div class="panel" id="panel-3" onclick="selectPanel(tomjerry)">
+            <h3>Tom and Jerry</h3>
+        </div>
+        <div class="panel" id="panel-4" onclick="selectPanel(scam1992)">
+            <h3>Scam 1992</h3>
+        </div>
+        <div class="panel" id="panel-5" onclick="selectPanel(kgf)">
+            <h3>KGF</h3>
+        </div>
+    </div>
+
+    <script src="sound.js"></script>
+</body>
+</html>
